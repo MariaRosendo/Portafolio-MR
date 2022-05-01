@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio da Maria R.</title>
+</head>
+<header>
+    <nav>
+        <ul>
+        <a href="#Sobre mim"><li>Sobre mim</li></li></a>
+        <a href="#Conhecimentos"><li>Habilidades</li></a>
+        <a href="#Projectos"><li>Projectos</li></a>
+        <a href="#Deixe sua mensagem"><li>Deixe sua Mensagem</li></a>
+        <a href="#Contratar"><li>Contratar</li></a>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>👋 Olá! Seja muito bem-vindo ao meu portafolio! 😃</h1>
+    <h2 id="Sobre mim">Sobre mim</h2>
+    <h4>Meu nome é Maria Rosendo</h4>
+    <p>Sou aluna da Toti, faço o curso de Desenvolvedor Full-Stack e pertenço a turma 15.</p> 
+      <p>Eu tenho três grandes paixões na vida: Tecnologia, marketing e aprender Línguas, também acredito que é essencial ser gentil, buscar o aprendizado continuo e compartilhar os conhecimentos.</p>
+    <p>Se você deseja conhecer um pouco mais sobre mim, você pode visualizar o meu curriculum, clicando no botão embaixo</p>
+</main>
+<body>  
+    <button type="button" onclick="location.href='https://drive.google.com/file/d/1ltJZ-KG6siE1m6wTl0txekgvb8h0cAf4/view?usp=sharing'">Ver Curriculum</button>
+
+    <!--Fiz uma atualização do curriculum, mas ainda faltam algumas coisas que desejo adicionar, porém vou focar em deixar aqui a 
+    estrutura pronta antes de voltar mexer nele-->
+    <div>
+        <h2 id="Conhecimentos">Conhecimentos</h2>
+            <h4>Tecnologias</h4>
+            <ul>
+                <li>Html5</li>
+                <li>Css3</li>
+                <li>JavaScript</li>
+                <li>Scratch 3.0</li>
+                <li>App Inventor</li>
+                <li>Construct 3</li>
+            </ul>
+
+            <h4>Marketing</h4>
+            <ul>
+                <li>Gerenciamento de anúncios</li>
+                <li>CRM</li>
+                <li>chatbot</li>
+                <li>Broadcasting</li>
+                <li>E-mail marketing</li>
+            </ul>
+            
+            <h4>Línguas</h4>
+            <ul>
+                <li>Espanhol C2</li>
+                <li>Inglés C1</li>
+                <li>Português C1</li>
+            </ul>
+    </div> 
+<div>
+    <H2 id="Projectos">Projectos</H2>
+    <P>Formulário de pesquisa</P>
+    <p>Link tree</p>
+    <p>Landing page</p>
+    <p>Slider de Imagem</p>
+    <p>Site paralax</p>
+    <p>Página de cadastro</p>
+    <p>Catálogo de Manga</p>
+    <p>Vlog</p>
+    <p>Desenho</p>
+    <p>Dashboard</p>
+    <p>E-mail Marketing</p>
+    <p>To do list</p>
+
+    <!--Esta divisão não será uma lista ela ficará ampliamente expandida em forma de paisagem ou senão tipo slider, depende, ainda vou decidir :)-->
+    <!--Alguns dos Projectos mencionados acima ainda não completei, mas irei completar proximamente, como este projectinho ira ser editado
+    mais para frente, eu deixarei por aqui, mesmo não os tenha concluido, porque tecnicamente ainda da tempo rsrsrs :) amo a Toti-->
+</div>
+</body>
+<div class="row">
+<form>
+    <H2 id="Deixe sua mensagem">Deixe sua mensagem</H2>
+   <label for="inputnome">Nome</label>
+   <input type="text" id="inputnome"
+   
+   <label for="inputemail">E-mail</label>
+   <input type="email" id="inputemail"
+   
+   <label for="Mensagem">Deixe sua mensagem</label>
+   <textarea name="areadamensagem" id="Mensagem" cols="250" rows="20"></textarea>
+   <button>Enviar Mensagem</button>
+</form>
+</div>
+<div>
+<footer>
+    <H2 id="Contratar">Contratar</H2>
+    <p>Maria Rosendo</p>
+    <dt>Celular: (48)8866-0742</dt>
+    <a href="https://wa.me/554888660742">
+        <button>WhatsApp</button>
+    <p><a href="mailto:mariarossendo@gmail.com">mariarossendo@gmail.com</a></p>
+</div>
+</footer>
+</html>
